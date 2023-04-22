@@ -12,7 +12,6 @@ function variables() {
     return data;
   }
 
-
   // para acceder a la data si es diferente a null, undefined o false, si no devuelve undefined
   console.log(428, persona.name.ap?.first)
   console.log(500, persona.name?.p)
